@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 1;
+
+    while (x <= 5) {
+        int y = 0;
+
+        while (y < x) {
+            cout << "*";
+            y++;
+        }
+        cout << endl;
+        x++;
+
+    }
+    int w = 4;
+
+
+    while (w > 0) {
+        int z = 0;
+
+        while (z < w) {
+            cout << "*";
+            z++;
+        }
+        cout << endl;
+        w--;
+
+    }
+}
