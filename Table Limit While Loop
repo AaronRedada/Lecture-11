@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+
+    cout << "Enter the number for the table for 10:\n";
+    cin >> num;
+
+    int limit;
+    cout << "Enter the number the table should end:\n";
+    cin >> limit;
+
+    int x = 1;
+    while (x <= limit) {
+        int y = num * x;
+        cout << num << " * " << x << " = " << y << endl;
+        x++;
+    }
+
+}
