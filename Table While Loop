@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num;
+
+    cout << "Enter the number for the table for 10:\n";
+    cin >> num;
+    cout << endl;
+
+    int x = 1;
+    while (x <= 10) {
+        int y = num * x;
+        cout << num << " * " << x << " = " << y << endl;
+        x++;
+    }
+}
