@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int x = 0;
+    int z = 1;
+    do {
+        x++;
+
+        if (x % 9 == 0) {
+            z += x;
+        }
+
+    } while (x < 200);
+
+    cout << "The Sum of al integers divisible by 9 from 1 to 200 is " << z;
+
+}
